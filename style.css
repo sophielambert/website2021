@@ -1,0 +1,63 @@
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+h1{
+  font-family: helvetica;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: #dcea9b;
+}
+
+p{
+  text-align: center;
+  color: #BCBCBC;
+  font-weight: 200;
+}
+
+.title{
+  padding-bottom: 50px;
+}
+
+
+
+.imageheader img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 50%;
+  background-color: #FEFEFE;
+  height: 40%;
+}
+
+.section2{
+  background-color: #FEFEFE;
+  padding-top: 50px;
+}
+
+.image2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 50%;
+  background-color: #dcea9b;
+}
+
+
+
+
+/* When the screen is less than 600 pixels wide, */
+@media screen and (max-width: 600px) {
+
+  h1{
+    font-size: 20px;
+  }
+
+
+}
