@@ -7,10 +7,30 @@ body{
 h1{
   font-family: helvetica;
   font-weight: 100;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   font-size: 30px;
   text-align: center;
   color: #dcea9b;
+}
+
+.title{
+  padding-bottom: 5px;
+}
+
+.nav{
+  text-align: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.nav li{
+  list-style: none;
+  color:  #dcea9b;
+  font-weight: 200;
+  display: inline;
+  padding-right: 15px;
+  padding-left: 15px;
+  letter-spacing: 2px;
 }
 
 p{
@@ -19,9 +39,7 @@ p{
   font-weight: 200;
 }
 
-.title{
-  padding-bottom: 50px;
-}
+
 
 
 
@@ -31,26 +49,73 @@ p{
   margin-right: auto;
   width: 40%;
   border-radius: 50%;
-  background-color: #FEFEFE;
+  background-color: #FBFBFB;
   height: 40%;
 }
 
+.section1{
+  padding-bottom: 50px;
+}
+
 .section2{
-  background-color: #FEFEFE;
+  background-color: #FBFBFB;
   padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 .image2 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 10%;
   border-radius: 50%;
   background-color: #dcea9b;
 }
 
+.image2 a:hover{
+  background-color: black;
+}
+
+.section3{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container img{
+  display: inline;
+  border: 2px solid;
+  border-color: #FBFBFB;
+  margin: 5px;
+  width: 20%;
+}
 
 
+.container {
+  position: relative;
+  width: 50%;
+  display: inline;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  -ms-transform: translate(-50%, 20%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
 
 /* When the screen is less than 600 pixels wide, */
 @media screen and (max-width: 600px) {
@@ -59,5 +124,6 @@ p{
     font-size: 20px;
   }
 
-
+  .section3 img{
+    width: 40%;
 }
