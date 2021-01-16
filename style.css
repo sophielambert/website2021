@@ -13,6 +13,30 @@ h1{
   color: #dcea9b;
 }
 
+h2{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: #dcea9b;
+}
+
+h3{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.experiences{
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
 .title{
   padding-bottom: 5px;
 }
@@ -31,6 +55,10 @@ h1{
   padding-right: 15px;
   padding-left: 15px;
   letter-spacing: 2px;
+}
+
+a{
+  text-decoration: none;
 }
 
 p{
